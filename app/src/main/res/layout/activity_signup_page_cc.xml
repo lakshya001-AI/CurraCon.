@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context="com.curracon.currencyconverterapp.SignupPageCC">
+
+    <TextView
+        android:id="@+id/logintextview"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_28sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/emailtextviewsignup"
+        android:hint="  Email"
+        android:textColorHint="@color/white"
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/logintextview"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_height="@dimen/_46sdp">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/passwordtextviewsignup"
+        app:layout_constraintTop_toBottomOf="@+id/emailtextviewsignup"
+        android:textColor="@color/white"
+        android:hint="  Create Password"
+        android:textColorHint="@color/white"
+        android:padding="@dimen/_8sdp"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_height="@dimen/_46sdp">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/connectbuttonsignup"
+        android:layout_width="@dimen/_140sdp"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtextviewsignup"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Connect"
+        android:textColor="@color/white"
+        android:backgroundTint="#FFF54B4B"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold"
+        android:layout_height="@dimen/_50sdp">
+    </Button>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/connectbuttonsignup"
+        android:text="OR"
+        android:id="@+id/ortextview"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/googlesignupbutton"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/snssignuplogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ortextview"
+        app:layout_constraintVertical_bias="0.133">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/backtologin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Have Account ? LOGIN"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/googlesignupbutton"
+        app:layout_constraintVertical_bias="0.384">
+
+
+    </TextView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

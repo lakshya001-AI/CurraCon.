@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CurrencyConverterApp</string>
+    <string name="app_description"> Curracon allows you to effortlessly convert currencies on the single go</string>
+</resources>

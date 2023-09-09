@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="CustomSpinnerItemStyle">
+        <item name="android:layout">@layout/custom_spinner_item</item>
+    </style>
+    
+    
+</resources>

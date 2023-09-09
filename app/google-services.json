@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "879416234481",
+    "project_id": "curracon",
+    "storage_bucket": "curracon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879416234481:android:07a7d0e030a8740717b450",
+        "android_client_info": {
+          "package_name": "com.curracon.currencyconverterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879416234481-1vhnvlc5e0qtag8iofap0s0php8q2u0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.curracon.currencyconverterapp",
+            "certificate_hash": "01884fbcacfdb4b22619c0f9dfe74f5c8ba2a3b6"
+          }
+        },
+        {
+          "client_id": "879416234481-6vho2q43u59mon9ei5eahpoo02vfi7j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC3y7lTX2eli2iHwWk8Wp00EjNnxg8N7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879416234481-6vho2q43u59mon9ei5eahpoo02vfi7j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
